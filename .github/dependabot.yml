@@ -9,4 +9,6 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "cron"
-      cronjob: "52 * * * *"
+      cronjob: "2 * * * *"
+    cooldown:
+      default-days: 1
